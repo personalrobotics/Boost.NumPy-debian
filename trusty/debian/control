@@ -1,4 +1,4 @@
-Source: boost-numpy
+Source: boost-python-numpy
 Section: misc
 Priority: extra
 Maintainer: Jeongseok Lee <jslee02@gmail.com>
@@ -7,12 +7,14 @@ Build-Depends: debhelper (>= 9.0.0),
                libboost-dev,
                libboost-python-dev,
                python-numpy,
+               python3-numpy,
                python-dev,
+               python3-dev,
                libeigen3-dev
-Homepage: https://github.com/personalrobotics/pr_control_msgs
+Homepage: https://github.com/personalrobotics/Boost.NumPy
 Standards-Version: 3.9.2
 
-Package: libboost-numpy
+Package: libboost-python-numpy
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -20,16 +22,18 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Boost.Python interface for NumPy - Shared Library
  Boost.NumPy is an extension for Boost.Python that adds NumPy support.
 
-Package: libboost-numpy-dev
+Package: libboost-python-numpy-dev
 Section: libdevel
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends},
-         libboost-numpy (= ${binary:Version}),
+         libboost-python-numpy (= ${binary:Version}),
          libboost-dev,
          libboost-python-dev,
          python-numpy,
+         python3-numpy,
          python-dev,
+         python3-dev,
          libeigen3-dev
 Description: Boost.Python interface for NumPy - Development Files
  Boost.NumPy is an extension for Boost.Python that adds NumPy support.

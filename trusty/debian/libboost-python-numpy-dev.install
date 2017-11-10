@@ -1,0 +1,5 @@
+usr/include/boost/*
+usr/lib/BoostNumpy/cmake/BoostPython*NumpyConfig.cmake
+usr/lib/BoostNumpy/cmake/BoostPython*NumpyConfigVersion.cmake
+usr/lib/BoostNumpy/cmake/BoostPython*NumpyTargets.cmake
+usr/lib/BoostNumpy/cmake/BoostPython*NumpyTargets-*.cmake

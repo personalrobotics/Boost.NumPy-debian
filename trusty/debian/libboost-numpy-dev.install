@@ -1,6 +1,0 @@
-usr/include/boost/*
-usr/lib/BoostNumpy/cmake/BoostNumpyConfig.cmake
-usr/lib/BoostNumpy/cmake/BoostNumpyConfigVersion.cmake
-usr/lib/BoostNumpy/cmake/BoostNumpyTargets.cmake
-usr/lib/BoostNumpy/cmake/BoostNumpyTargets-*.cmake
-
