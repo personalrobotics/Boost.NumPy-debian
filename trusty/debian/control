@@ -26,6 +26,7 @@ Package: libboost-python-numpy-dev
 Section: libdevel
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
+Conflicts: libboost-numpy-dev
 Depends: ${misc:Depends},
          libboost-python-numpy (= ${binary:Version}),
          libboost-dev,

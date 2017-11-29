@@ -1,5 +1,11 @@
 usr/include/boost/*
-usr/lib/BoostNumpy/cmake/BoostPython*NumpyConfig.cmake
-usr/lib/BoostNumpy/cmake/BoostPython*NumpyConfigVersion.cmake
-usr/lib/BoostNumpy/cmake/BoostPython*NumpyTargets.cmake
-usr/lib/BoostNumpy/cmake/BoostPython*NumpyTargets-*.cmake
+
+usr/lib/BoostPython3Numpy/cmake/BoostPython3NumpyConfig.cmake
+usr/lib/BoostPython3Numpy/cmake/BoostPython3NumpyConfigVersion.cmake
+usr/lib/BoostPython3Numpy/cmake/BoostPython3NumpyTargets.cmake
+usr/lib/BoostPython3Numpy/cmake/BoostPython3NumpyTargets-*.cmake
+
+usr/lib/BoostPython2Numpy/cmake/BoostPython2NumpyConfig.cmake
+usr/lib/BoostPython2Numpy/cmake/BoostPython2NumpyConfigVersion.cmake
+usr/lib/BoostPython2Numpy/cmake/BoostPython2NumpyTargets.cmake
+usr/lib/BoostPython2Numpy/cmake/BoostPython2NumpyTargets-*.cmake
