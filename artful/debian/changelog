@@ -1,4 +1,4 @@
-boost-python-numpy (0.0.3.ppa0~xenial) xenial; urgency=medium
+boost-python-numpy (0.0.3.ppa0~artful) artful; urgency=medium
 
   * Support both of Python 2 and 3
 
