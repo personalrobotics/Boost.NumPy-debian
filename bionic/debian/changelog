@@ -1,4 +1,10 @@
-boost-python-numpy (0.0.3.ppa0~bionic) bionic; urgency=medium
+boost-python-numpy (0.0.4.ppa0~bionic) bionic; urgency=medium
+
+  * Release 0.0.4
+
+ -- Jeongseok Lee <jslee02@gmail.com>  Fri, 13 Apr 2018 23:59:59 -0700
+
+boost-python-numpy (0.0.3.ppa0~artful) artful; urgency=medium
 
   * Support both of Python 2 and 3
 
